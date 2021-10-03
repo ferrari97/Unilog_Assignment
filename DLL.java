@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 
 /**
- * 
- * @author K R Navaneeth
- *
  * @param <T>
  * Generic Node class for doubly linked list
  */
@@ -21,6 +18,10 @@ class Node<T>{
 	}
 }
 
+/**
+ * @param <T>
+ * Generic linked list
+ */
 class List<T>{
 	Node<T> head;
 
